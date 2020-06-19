@@ -1,0 +1,34 @@
+ * {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: #fff0c7;
+}
+ .my-class {
+ 	color: red;
+ }
+ table {
+ 	border:1px solid black;
+ 	border-collapse: collapse; 
+ }
+ tr {
+ 	height: 10px;
+ 	min-width: 400px;
+ }
+ tr:nth-child(even) {
+ 	background: aquamarine;
+ }
+ tr:nth-child(odd) {
+ 	background: bisque;
+ }
+  td {
+ 	border:1px solid black;
+ 	min-width: 100px; 
+ }
+ /*.active {
+ 	display: none;*/
+ }
+ #but, #inp, #tab {
+	margin: 10px;
+}

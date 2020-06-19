@@ -1,0 +1,51 @@
+/* * {
+    margin: 0;
+    padding: 0;
+} */
+body {
+    background-color:green;
+}
+.icon-size{
+    width: 25px;
+    height: 25px;
+}
+#email::placeholder{
+    text-align: right;
+}
+.divc{
+    background-color: rgb(51, 34, 28);
+}
+.prof{
+    margin-right: -15px;
+    margin-left: -15px;
+    position: relative;
+}
+
+.proftext{
+    position: absolute;
+    top: 65%;
+    margin-left: 25%;
+    /* background:yellow; */
+    color: ivory;
+    /* text-align: center; */
+}
+.proftext h2{
+    font-size: 22pt;
+}
+.proftext p{
+    font-size: 10pt;
+}
+.l-bar{
+    height: auto;
+    background-color: #fff;
+}
+.r-bar{
+
+}
+
+/* @media(max-width:1165px){
+    .registr {
+        margin-top: 10px;
+        max-width: 350px;
+    }
+} */

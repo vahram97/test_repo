@@ -1,0 +1,96 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: black;
+}
+#kalk {
+	user-select: none;
+	diplay:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 20px auto;
+	width: 230px;
+	height: auto;
+	background: black;
+	clear: both;
+	border: 3px solid white;
+	padding: 20px
+}
+.kalk_item1 {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+	justify-content: center;
+}
+#area, #res_area {
+	width: 100%;
+	height: 30px;
+	text-align: right;
+	font-size: 20px;
+	font-family: "Tahoma";
+	font-weight: bold;
+}
+.kalk_item {
+	margin-top: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.math_f {
+	font-size: 20px;
+	font-family: "Tahoma";
+	font-weight: bold;
+	margin-top: 10px;
+	margin-top: 10px;
+	width: 25%;
+	height: 30px;
+	background: yellow;
+	color: black;
+	cursor: pointer;
+}
+.math_f:hover{
+	color: yellow;
+	background:black;
+	transition: all .4s;
+}
+.math_f1{
+	font-size: 20px;
+	font-family: "Tahoma";
+	font-weight: bold; 
+	margin-top: 10px;
+	width: 100%;
+	height: 50px;
+	color: red;
+	background: black;
+	cursor: pointer;
+}
+.math_f1:hover{
+	color: black;
+	background:yellow;
+	transition: all .4s;
+}
+.math_num{
+	font-size: 20px;
+	font-family: "Tahoma";
+	font-weight: bold;
+	margin-top: 10px;
+	width: 50px;
+	height: 50px;
+	color: yellow;
+	background: black;
+	cursor: pointer;
+}
+.math_num:hover{
+	color: black;
+	background:yellow;
+	transition: all .4s;
+}
+.ce{
+	font-size: 20px;
+	font-family: "Tahoma";
+	font-weight: bold;
+	color: red;
+	cursor: pointer;
+}

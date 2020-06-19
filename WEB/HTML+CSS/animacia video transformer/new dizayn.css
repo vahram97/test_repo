@@ -1,0 +1,105 @@
+body{
+	background:url(images/nkar3.jpg) no-repeat center fixed;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-0-background-size:cover;
+	background-size:cover;
+	}
+#div1{
+	background-color:#a5a5a5;
+	width:320px;
+}
+a{
+	color:green;
+	font-size:16px;
+}
+div{
+	color:#07ff39 ;
+	background-color:#010504;
+	
+	
+}
+
+#a2{
+	color:red;
+}
+#a3{
+	color:blue;
+}
+.humman{
+	color:#f44289;
+}
+.animal{
+	color:#c9ead4;
+}
+.message{
+	color:#bcb3d8;
+	background-color:#e6e3fc;
+	border:2px solid #18171e;
+	border-radius:80px;
+	font-size:50px;
+	margin-left:380px;
+	margin-right:80px;
+	margin-bottom:5px;
+	padding:20px;
+}
+.message:hover{
+	border:10px solid #e19ee2
+}
+.message2{
+	color: #c6d166;
+	background-color:#ebf2ab;
+	border:2px solid #9da6cc;
+	border-radius:80px;
+	font-size:50px;
+	margin-left:380px;
+	margin-right:80px;
+	margin-bottom:5px;
+	padding:20px;
+	
+}
+.message2:hover{
+	border:10px solid #acba30;
+	opacity:1
+	
+}
+.message3{
+	color: #50a7ba;
+	background-color:#86c8d6;
+	border:2px solid #9da6cc;
+	border-radius:80px;
+	font-size:50px;
+	margin-left:380px;
+	margin-right:80px;
+	margin-bottom:5px;
+	padding:20px;
+	opacity:0.1
+}
+.message3:hover{
+	border:10px solid #29879b;
+	opacity:1
+	
+}
+
+.message4{
+	color: #bcb3d8;
+	background-color:#86c8d6;
+	border:2px solid #bcb3d8;
+	border-radius:80px;
+	font-size:50px;
+	margin-left:380px;
+	margin-right:80px;
+	margin-bottom:5px;
+	padding:20px;
+	opacity:0.1;
+	transform:scale(0.5) rotate(45deg);
+	transition:2s all
+}
+
+.message4:hover{
+	border:10px solid #bcb3d8;
+	opacity:1;
+	transform:rotate(60deg) scale(1);
+	background-color:red	
+}
+	

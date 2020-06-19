@@ -1,0 +1,123 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+div{
+	display:block;
+}
+#header{
+	background-color: #242424;
+    width:100%;
+    height:50px;
+}
+
+#menu{
+	width:1100px;
+	margin:0 auto;
+	
+}
+li {
+	float:left;
+	display:block;
+	list-style-type:none;
+	
+}
+a{
+	display:block;
+	line-height:50px;
+	color:green;
+	font:19px;font-family:arial;
+	text-decoration:none;
+	padding:0 20px; 
+}
+a:hover{
+	background:white;	
+}
+
+#wrapper {
+	width:1100px;
+	margin:30px auto 0 auto;
+	background:#e3e6ea; 
+}
+/*.saidbar{
+	padding:0;margin:0;
+}*/
+.saidbar div{
+	margin:20px 20px 0 20px;
+}
+.saidbar h2{
+	font-size:17px;
+	font-family:arial;
+	margin:0;margin-bottom:10px;
+}
+.saidbar p{
+	font-size:13px;
+	font-family:arial;
+	text-align:justify;
+	margin:0;margin-bottom:10px;
+}
+#content p{
+	margin:10px 0px;
+	text-align:justify;
+	font:16px "times new roman";
+	
+}
+#content h1{
+	margin:20px 0 0 ;
+    font:21px "times new roman";
+	font-weight:bold;	
+}
+
+#leftbar{
+	float:left;
+	width:250px;
+	background:red;
+}
+#rightbar{
+	float:right;
+	width:250px;
+	background:yellow;
+}
+#cotent{
+    margin:0 250px;
+	width:600px;
+	
+ } 
+ #content div img{
+	 width:600px;
+ }
+.clearfix{
+    clear: both;
+}
+#footer{
+	background:#242424;
+	min-height:80px;
+	
+}
+#nav{
+	width:1100px;
+	margin:30px auto 0 auto;
+	display:flex;
+	justify-content:space-between;
+}
+#nav div{
+	width:24%;
+	
+    background-color: #EBEBEB;
+    color: black;
+}
+.last div{margin:0;}
+.saitname{
+	color:yellow;
+	margin:0px auto;
+	width:1100px;
+	text-align:center;
+	padding:30px 0 10px;
+}
+hr{ 
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+   
+   }

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>efekt</title>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div id=kalk>
+			<div class="kalk_item1">
+				<input type="text" id="area" value=""><br>
+				<input type="text" id="res_area" value=""><br>
+			</div>	
+			<div class="kalk_item">	
+				<input type="submit" class="math_f" value="*" onfocus="mathOperator(this)">
+				<input type="submit" class="math_f" value="/" onfocus="mathOperator(this)">
+				<input type="submit" class="math_f" value="-" onfocus="mathOperator(this)">
+				<input type="submit" class="math_f" value="+" onfocus="mathOperator(this)">
+				<input type="submit" class="math_f1" value="=" onclick="result()"><br>
+			</div>
+			<div class="kalk_item">		
+				<input type="submit" class="math_num" value="1" onclick="mathNum(this)">
+				<input type="submit" class="math_num" value="2" onclick="mathNum(this)">
+				<input type="submit" class="math_num" value="3" onclick="mathNum(this)">
+				<input type="submit" class="math_num" value="4" onclick="mathNum(this)">
+				<input type="submit" class="math_num" value="5" onclick="mathNum(this)">
+				<input type="submit" class="math_num" value="6" onclick="mathNum(this)">
+				<input type="submit" class="math_num" value="7" onclick="mathNum(this)">
+				<input type="submit" class="math_num" value="8" onclick="mathNum(this)">
+				<input type="submit" class="math_num" value="9" onclick="mathNum(this)">
+				<input type="submit" class="math_num" value="0" onclick="mathNum(this)">
+				<input type="submit" class="math_num" value="." onclick="point(this)">
+				<input type="submit" class="math_num ce" value="CE" onclick="f_delete(this)">
+			</div>	
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>

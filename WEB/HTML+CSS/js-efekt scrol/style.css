@@ -1,0 +1,30 @@
+ * {
+	padding: 0;
+	margin: 0;
+}
+body {
+	height: 3000px;
+
+}
+#newdiv {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: white;
+	height: 50px;
+	width: 0%;
+	border: 2px solid red;
+}
+#newdiv2 {
+	display: inline-block;
+	background: green;
+	height: 600px;
+	width: 400px;
+	border: 2px solid red;
+	transition: all 2s ease;
+}
+#test {
+	position: fixed;
+	left: 50px;
+	top: 100px;
+}

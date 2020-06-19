@@ -1,0 +1,124 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+	body{
+		font: 12px Arial;
+		line-height:1.3;
+		background: #fff;
+	}
+	header{
+		background: #008040;
+		display: block;
+	}
+	.header-content{
+		text-align: center;
+		padding-bottom: 5px;
+	}
+	header h1{
+		font: bold 35px Arial; 
+		color: #fff;
+		margin-bottom: 7px;
+		padding-top: 5px;
+	}
+	header p{
+		font: 21px Arial;
+		color: #fff;
+		margin-bottom: 5px;
+	}
+	main{
+		max-width: 840px;
+		margin: 30px auto 20px auto;
+	}
+	section h2{
+		text-align: center;
+		font-size: 27px;
+		font-weight: bold;
+		color: #000; padding-bottom: 10px;
+	}
+	section ol { 
+		list-style-type: decimal;
+		font-size: 16px;
+		font-weight: bold;
+		color: red;
+	}
+	section ol li{
+		list-style-position: inside;
+		text-align: justify;
+		padding-bottom: 10px;
+	}
+	.spisok li span{
+		font-weight: normal;
+		color: #000;
+	}
+	.contact{
+		display: block;
+		background: #c60304;
+		text-align: center;
+	}
+	.contact h2{
+		font-size: 27px;
+		font-weight: bold;
+		color: #fff;
+		padding-top: 10px;
+	}
+	.contact p{
+		font-size: 16px;
+		color: #fff;
+		padding-bottom: 20px;
+	}
+	.company{
+		width: 840px;
+		margin: 30px auto 20px auto;
+	}
+	.company p{
+		font-size: 16px;
+		text-align: justify;
+		padding-bottom: 10px;
+	}
+	footer{
+		background: #FF8040;
+	}
+	.footer-menu{
+		max-width: 840px;
+		margin: 20px auto;
+	}
+	.footer-menu h2{
+		font: bold 27px Arial;
+		color: #fff;
+		text-align: center;
+		padding: 20px 0 10px 0;
+	}
+	.bbb{
+		max-width: 840px;
+	
+	}
+	.picture{
+		display: flex;
+		max-width: 840px;
+		justify-content:space-around;
+		flex-wrap: wrap;
+	}
+	.nkar{
+		border: 1px solid #000;
+		flex-basis: 24%;
+		margin-bottom: 0.5%;	
+	}
+	.nk{flex:2;}
+	.footer-link{
+		background: #912F00;
+		padding-top: 200px;
+	}
+	.footer-link p{
+		text-align: center;
+		font: 13px Arial;
+		color: #fff;
+		padding-bottom: 5px;
+	}
+
+
+
+
+
+

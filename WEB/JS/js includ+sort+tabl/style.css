@@ -1,0 +1,51 @@
+ * {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background: #fff0c7;
+}
+#content {
+	margin:20px auto;
+	background: white;
+	display: block;
+	width: 800px;
+	height: 100vh; 
+}
+ table {
+ 	border:1px solid black;
+ 	border-collapse: collapse; 
+ }
+ th {
+ 	font-weight: bold;
+ 	font-size: 20px;
+ 	border:1px solid black;
+ 	min-width: 100px;
+ 	background: silver;
+ }
+ tr {
+ 	height: 10px;
+ 	min-width: 400px;
+ }
+ tr:nth-child(even) {
+ 	background: aquamarine;
+ }
+ tr:nth-child(odd) {
+ 	background: bisque;
+ }
+  td {
+ 	border:1px solid black;
+ 	min-width: 100px; 
+ }
+ .active {
+ 	display: none;
+ }
+ #but, #inp, #tab, #tab2 {
+	margin: 10px;
+}
+/*#tab2 {
+	display: none;
+} */
+.disp_{
+	display: inline-block;
+}

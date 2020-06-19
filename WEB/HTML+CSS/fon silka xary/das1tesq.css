@@ -1,0 +1,83 @@
+body{
+	background-image:url(images/chelseafon2.jpg);
+	background-repeat:repeat-y;
+	background-position:center top;
+	background-attachment:fixed;
+	color:#288;
+}
+
+.silka1{
+	color:blue;
+	text-decoration:none;
+	font-size:30px;
+}
+
+.silka1:hover{
+	color:green;
+	text-decoration:underline;
+}
+.silka2{
+	color:red;
+	text-decoration:underline;
+	font-size:30px;
+}
+
+.silka2:hover{
+	color:blue;
+	text-decoration:line-through;
+}
+.silka3{
+	color:black;
+	text-decoration:none;
+	font-size:30px;
+}
+
+.silka3:hover{
+	color:red;
+	text-decoration:overline;
+}
+
+a:active{
+	color:red;
+}
+.dasht1 {
+	text-decoration:overline;
+	color:green;
+	font-size:30px;
+}
+.qarakusi{
+	border:10px groove green;
+	border-radius:50px;
+	width:400px;
+	height:400px;
+	color:red;
+	background:url(images/chelseafon2.jpg) no-repeat scroll;
+}
+
+
+
+#wrapper {
+	width: 1100px;
+	margin: 100px auto;
+	
+	
+}
+
+#left {
+	width: 200px;
+	float: left;
+}
+
+#right {
+	width: 200px;
+	float: left;
+}
+
+#content {
+	width: 700px;
+	float: left;
+}
+
+#header, #content, #left, #right, #footer {
+	outline: 1px solid red;
+}

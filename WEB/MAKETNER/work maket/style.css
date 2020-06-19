@@ -1,0 +1,246 @@
+@font-face {
+    font-family: 'Bariol_Regular';
+    src: url('fonts/Bariol_Regular.eot');
+    src: url('fonts/Bariol_Regular.eot') format('embedded-opentype'), url('fonts/Bariol_Regular.woff2') format('woff2'), url('fonts/Bariol_Regular.woff') format('woff'), url('fonts/Bariol_Regular.ttf') format('truetype'), url('fonts/Bariol_Regular.svg#Bariol_Regular') format('svg');
+}
+
+
+/*
+div {
+    border: 1px solid black;
+}
+*/
+
+.row1 {
+    margin-top: 20px;
+}
+
+.row2 {
+    margin-top: 20px;
+}
+
+.section1 {
+    background: #d94948;
+}
+
+.menu {
+    min-height: 110px;
+}
+
+.menu-item {
+    height: 30px;
+    width: 70px;
+    text-align: center;
+    font-family: Bariol;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.menu-item:hover {
+    background-color: #232324;
+    border-radius: 3px;
+}
+
+.grafika {
+    position: relative;
+}
+
+.motion {
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    font-family: Bariol;
+    font-size: 35px;
+    line-height: 28px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+}
+
+.logo-p {
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.section2 {
+    background-color: #eb4f4e;
+}
+
+.section2 h1 {
+    font-family: Bariol;
+    font-size: 60px;
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    color: #ffffff;
+    margin-top: 59px;
+}
+
+.section2 h5 {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+    margin-top: 26px;
+    margin-bottom: 30px;
+}
+
+.row-slaid {
+    height: 440px;
+}
+
+.carousel-inner img {
+    margin: 0 auto;
+    display: block;
+}
+
+.div2 {
+    background-color: #232324;
+}
+
+.div2 h1 {
+    font-family: Bariol;
+    font-size: 40px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.16em;
+    color: #ffffff;
+    margin-top: 42px;
+}
+
+.div2 h5 {
+    font-family: Bariol;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    color: #d94948;
+    margin-top: 23px;
+    margin-bottom: 39px;
+}
+
+.icons {
+    min-height: 228px;
+    min-width: 228px;
+}
+
+.icons-item1 {
+    background: url(images/infinity.png) 50% 50% no-repeat, url(images/circle.png) 50% 50% no-repeat;
+    min-height: 100px;
+    margin: 5px;
+}
+
+.icons-item2 {
+    background: url(images/bantik.png) 50% 50% no-repeat, url(images/x.png) 50% 50% no-repeat, url(images/circle.png) 50% 50% no-repeat;
+    min-height: 100px;
+    margin: 5px;
+}
+
+.icons-item3 {
+    background: url(images/obloko.png) 50% 50% no-repeat, url(images/circle.png) 50% 50% no-repeat;
+    min-height: 100px;
+    margin: 5px;
+}
+
+.icons h4 {
+    font-family: Bariol;
+    font-size: 30px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    margin: 10px auto 10px;
+}
+
+.icons p {
+    font-family: Bariol;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color: #e74c3c;
+    margin: 10px auto 10px;
+}
+
+.sec-green {
+    background: #6ec373;
+}
+
+.sec-green h1 {
+    font-family: Bariol;
+    font-size: 40px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.16em;
+    color: #ffffff;
+    margin-top: 42px;
+}
+
+.sec-green h5 {
+    font-family: Bariol;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    color: #232324;
+    margin-top: 12px;
+}
+
+.human-item {
+   
+    
+}
+
+.human {
+    border-radius: 10px;
+    background: #ffffff;
+    
+}
+
+.name {
+    width: 208px;
+    font-family: Bariol;
+    font-size: 25px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    color: #61af66;
+    margin: 10px auto 10px;
+}
+
+.job {
+    width: 154px;
+    font-family: Bariol;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color: #e74c3c;
+    margin: 10px auto 10px;
+}
+
+.human1 {
+    background: url(images/hum1.png) 50% 50% no-repeat, url(images/circl_green.png) 50% 50% no-repeat;
+    min-height: 165px;
+}
+
+.human2 {
+    background: url(images/hum2.png) 50% 50% no-repeat, url(images/circl_green.png) 50% 50% no-repeat;
+    min-height: 165px;
+}
+
+.human3 {
+    background: url(images/hum3.png) 50% 50% no-repeat, url(images/circl_green.png) 50% 50% no-repeat;
+    min-height: 165px;
+}
+
+.human4 {
+    background: url(images/hum4.png) 50% 50% no-repeat, url(images/circl_green.png) 50% 50% no-repeat;
+    min-height: 165px;
+}
